@@ -11,9 +11,11 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   padding: 1em;
+  align-content: center;
 }
 
 header{
+  text-align: center;
   padding: 2em;
 }
 
@@ -21,15 +23,61 @@ nav ul{
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: left; 
+  justify-content: center;
+  padding: 1em;
 }
 
 nav ul li{
   border: solid 1px #333;
-  padding: 2em;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(139, 214, 212)
+}
+
+.titulo{
   text-align: center;
 }
 
 .gallery{
+  width: 1200px;
+  padding: 2em;
+}
+
+.gallery span{
+  text-align: center;
+  right: 0px;
+  object-fit: contain;
+}
+
+.titulo-lista{
+  text-align: center;
+  padding: 1em;
+}
+
+.escapadas{
+  display: flex;
+  flex-wrap:  wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.escapadas div{
+  width: 375px;
+  text-align: center;
+}
+
+.escapadas img{
+  width: 100%;
+  min-height: 250px
+}
+
+.escapada{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
   padding: 2em;
 }

@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "usuario":{
             "nombre": "Elisa",
             "email":"elisa@email.com",
@@ -14,7 +15,7 @@
         "precio":10.00,
         "observaciones":"Incluye seguro de accidentes y con guía de montaña, una ruta de 10km"
     },{
-
+        "id": 1,
         "usuario":{
             "nombre": "Jesús",
             "email":"jesus@email.com",
@@ -29,6 +30,7 @@
         "precio":20.00,
         "observaciones":"Incluye seguro de accidentes y etnólogo, cata de 3 vinos y aperitivos"
     },{
+        "id": 2,
         "usuario":{
             "nombre": "Vicky",
             "email":"vicky@email.com",
