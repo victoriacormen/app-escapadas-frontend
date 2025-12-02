@@ -1,0 +1,47 @@
+[
+    {
+        "usuario":{
+            "nombre": "Elisa",
+            "email":"elisa@email.com",
+            "telefono":"60000000000"
+        },
+        "description":"Excursión a Navacerrada en Otoño",
+        "fecha":"2025-10-25",
+        "hora":"09:30",
+        "latlong":[40.73243604932511, -3.9790174394635542],
+        "original":"/images/navacerrada-otoño.jpg",
+        "thumbnail":"/images/navacerrada-otoño.jpg",
+        "precio":10.00,
+        "observaciones":"Incluye seguro de accidentes y con guía de montaña, una ruta de 10km"
+    },{
+
+        "usuario":{
+            "nombre": "Jesús",
+            "email":"jesus@email.com",
+            "telefono":"60000000001"
+        },
+        "description":"Excursión a Bodega Tierra Calma en San Martín de Valdeiglesias",
+        "fecha":"2025-11-01",
+        "hora":"09:30",
+        "latlong":[40.361666444111414, -4.407966087658435],
+        "original":"/images/bodega-tierra-calma.jpg",
+        "thumbnail":"/images/bodega-tierra-calma.jpg", 
+        "precio":20.00,
+        "observaciones":"Incluye seguro de accidentes y etnólogo, cata de 3 vinos y aperitivos"
+    },{
+        "usuario":{
+            "nombre": "Vicky",
+            "email":"vicky@email.com",
+            "telefono":"60000000002"
+        },
+        "description":"Excursión a Chinchón",
+        "fecha":"2025-11-08",
+        "hora":"09:30",
+        "latlong":[40.14022930395565, -3.4220306448391384],
+        "original":"/images/chinchon.jpg",
+        "thumbnail":"/images/chinchon.jpg",
+        "precio":15.00,
+        "observaciones":"Incluye seguro de accidentes y visita guiada, comeremos en el Restaurantes La Casa del Convento" 
+    }
+ 
+]
