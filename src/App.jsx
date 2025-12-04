@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import Rutas from './pages/Rutas'
-import Creditos from './pages/Creditos'
+import AgregarRuta from './pages/AgregarRuta'
 import { FaGithub } from "react-icons/fa";
 import ListaRutas from './pages/ListaRutas'
 import Ruta from './pages/Ruta'
@@ -20,6 +20,7 @@ function App() {
           <li><Link to="/">HOME</Link></li>
           <li><Link to="/rutas">RUTAS</Link></li>
           <li><Link to="/lista-rutas">LISTA DE RUTAS</Link></li>
+          <li><Link to="/agregar-ruta">AGREGAR RUTA</Link></li>
         </ul>
       </nav>
     </header>
@@ -29,6 +30,7 @@ function App() {
           <Route path='/rutas' element={<Rutas/>}></Route>
           <Route path='/lista-rutas' element={<ListaRutas/>}></Route>
           <Route path='/ruta/:id' element={<Ruta/>}></Route>
+          <Route path='/agregar-ruta' element={<AgregarRuta/>}></Route>
         </Routes>
       </main>
       <footer>

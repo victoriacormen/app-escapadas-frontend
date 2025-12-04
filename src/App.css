@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: whitesmoke;
   color: #333;
@@ -14,12 +14,12 @@ body{
   align-content: center;
 }
 
-header{
+header {
   text-align: center;
   padding: 2em;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -27,57 +27,118 @@ nav ul{
   padding: 1em;
 }
 
-nav ul li{
+nav ul li {
   border: solid 1px #333;
   padding: 1em;
   text-align: center;
-  background-color: rgb(139, 214, 212)
+  background-color: rgb(162, 168, 255);
+  margin: 1em;
+  border-radius: 15px;
 }
 
-.titulo{
+.titulo {
   text-align: center;
 }
 
-.gallery{
-  width: 1200px;
+.gallery {
+  margin: 0 auto;
   padding: 2em;
+  width: 93%
 }
 
-.gallery span{
+.img-gallery{
+  width: 100%;
+}
+
+.gallery span {
   text-align: center;
   right: 0px;
-  object-fit: contain;
 }
 
-.titulo-lista{
+.titulo-lista {
   text-align: center;
   padding: 1em;
 }
 
-.escapadas{
+.escapadas {
   display: flex;
-  flex-wrap:  wrap;
+  flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
 }
-.escapadas div{
+
+.escapadas div {
   width: 375px;
   text-align: center;
 }
 
-.escapadas img{
+.escapadas img {
   width: 100%;
   min-height: 250px
 }
 
-.escapada{
+.escapada {
   display: flex;
   flex-direction: column;
   justify-items: center;
   text-align: center;
 }
 
-footer{
+footer {
   text-align: center;
   padding: 2em;
+}
+
+h2 {
+  text-align: center;
+}
+
+#formulario {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+#formulario div{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#formulario label{
+  min-width: 100px;
+}
+
+#formulario div:nth-child(odd){
+  background-color:lightgray
+}
+
+#btn{
+  background-color: rgb(162, 168, 255);
+  border-radius: 100px;
+  width: 100px;
+  padding: 1em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mapa {
+  height: 250px;
+}
+
+.formCrearEsc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.respuesta {
+  padding: .5em;
+  font-weight: bold;
+  background-color: rgb(207, 210, 253);
+  text-align: center;
 }
